@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+
+}
+h1{
+    text-align: center;
+}
+.vakken{
+    grid-column-start: 3;
+}
+.deSchool{
+    background-color: #03357C;
+    color: #F8AECD;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.schoolinfo{
+    grid-column-start: 4;
+    margin-top: 50px;
+    padding: 20px;
+    height: fit-content;
+    border: 1px solid #F8AECD;
+    border-radius: 50px 25px;
+
+}
+.slideShow{
+    grid-column-start: 2;
+}
+#image1{
+    height: max-content;
+}
