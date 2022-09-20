@@ -10,15 +10,16 @@
 <body>
     
         <header>
-            <h1>Curio</h1>
+            <img src="img/logo.png" alt="">
         </header>
         <div class="container">
         <body>
             <div class="deSchool">
-                <div class="slideShow">
+                <img class="jim" src="img/improvedjim.png" alt="">
+                <!-- <div class="slideShow">
                     <img id="image1" alt="">
                 </div>
-                <!-- <script>
+                <script>
                     var imgArray = [
                         'img/jim.jpg',
                         'img/gebouw.jpg',
@@ -36,14 +37,18 @@
                     slideShow();
                 </script> -->
                 <div class="schoolinfo">
-                    <h2>Over de school</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto impedit architecto dolore, omnis maxime consequuntur voluptas accusantium sapiente reprehenderit illo aliquid fuga totam quam eos vitae quos repellat quo repudiandae?</p>
+                    <h2>Over de opleiding</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto impedit architecto dolore, omnis maxime consequuntur voluptas accusantium sapiente reprehenderit illo aliquid fuga totam quam eos vitae quos repellat quo repudiandae? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia doloribus, reiciendis magnam laborum et illum at debitis mollitia porro a quaerat quas voluptates quae ullam cupiditate dignissimos pariatur voluptate recusandae.</p>
                 </div>
             </div>
             <div class="vakken">
                 <h2>vakken</h2>
                 <ul>
                     <li><h3>Nederlands</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ea minima neque consectetur earum. Quis, vero, doloribus officia error eum itaque culpa provident quidem nisi dolores assumenda ex nostrum soluta?</p></li>
+                    <li><h3>Rekenen</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ea minima neque consectetur earum. Quis, vero, doloribus officia error eum itaque culpa provident quidem nisi dolores assumenda ex nostrum soluta?</p></li>
+                    <li><h3>Engels</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ea minima neque consectetur earum. Quis, vero, doloribus officia error eum itaque culpa provident quidem nisi dolores assumenda ex nostrum soluta?</p></li>
+                    <li><h3>Web</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ea minima neque consectetur earum. Quis, vero, doloribus officia error eum itaque culpa provident quidem nisi dolores assumenda ex nostrum soluta?</p></li>
+                    <li><h3>Win</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ea minima neque consectetur earum. Quis, vero, doloribus officia error eum itaque culpa provident quidem nisi dolores assumenda ex nostrum soluta?</p></li>
                 </ul>
             </div>
         </body>

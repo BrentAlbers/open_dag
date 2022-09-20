@@ -5,31 +5,35 @@
 .container{
 
 }
-h1{
+header{
     text-align: center;
+    background-color: #F8AECD;
+    box-shadow: 5px 10px #F8AECD;
+}
+header img{
+    height: 130px;
+
 }
 .vakken{
     grid-column-start: 3;
 }
 .deSchool{
-    background-color: #03357C;
+background-image: linear-gradient(to bottom left,#03357C, #1c4989);
     color: #F8AECD;
     height: 500px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 .schoolinfo{
-    grid-column-start: 4;
+    grid-column-start: 3;
     margin-top: 50px;
-    padding: 20px;
+    margin-left: 40px;
+    padding: 10px;
     height: fit-content;
-    border: 1px solid #F8AECD;
-    border-radius: 50px 25px;
+    border-left: 3px solid #F8AECD;
 
 }
-.slideShow{
+.jim{
+    height: 500px;
     grid-column-start: 2;
-}
-#image1{
-    height: max-content;
 }
