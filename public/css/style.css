@@ -1,14 +1,17 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 .container{
-
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 header{
     text-align: center;
     background-color: #F8AECD;
-    box-shadow: 5px 10px #F8AECD;
 }
 header img{
     height: 130px;
@@ -22,7 +25,7 @@ background-image: linear-gradient(to bottom left,#03357C, #1c4989);
     color: #F8AECD;
     height: 500px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
 }
 .schoolinfo{
     grid-column-start: 3;
@@ -36,4 +39,51 @@ background-image: linear-gradient(to bottom left,#03357C, #1c4989);
 .jim{
     height: 500px;
     grid-column-start: 2;
+    margin-left: 140px;
+}
+.vakken li{
+    width: 300px;
+    display: inline-block;
+    background-color: #C1ED0C;
+    padding: 50px;
+    margin: 30px,0,30px,0;
+    color: #69197C;
+}
+.vakken ul{
+    margin: 0;
+    padding: 0;
+}
+.blokken {
+    grid-column-start: 2; 
+    margin-top: 50px;
+    margin-bottom: 100px;
+    background-color: #C1ED0C;
+    width: 674px;
+    height: 449px;
+    color: #69197C;
+}
+.blokken ul,li,p,h2{
+    width: 534px;
+    margin: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+.blokken h2{
+    margin-top: 20px;
+    font-size: 50px ;
+}
+.blokken ul{
+    padding: 20px;
+}
+.blokimg{
+    margin-top: 140px;
+    width: 674px;
+}
+.blokken li span{
+    font-weight: bold;
+    font-size: 17px;
+}
+footer{
+    background-color: #F8AECD;
+    height: 200px;
 }
