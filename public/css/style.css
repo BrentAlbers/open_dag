@@ -29,7 +29,7 @@ background-image: linear-gradient(to bottom left,#03357C, #1c4989);
 }
 .schoolinfo{
     grid-column-start: 3;
-    margin-top: 50px;
+    margin-top: 130px;
     margin-left: 40px;
     padding: 10px;
     height: fit-content;
@@ -39,7 +39,7 @@ background-image: linear-gradient(to bottom left,#03357C, #1c4989);
 .jim{
     height: 500px;
     grid-column-start: 2;
-    margin-left: 140px;
+    margin-left: 145px;
 }
 .vakken li{
     width: 300px;
