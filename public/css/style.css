@@ -87,7 +87,27 @@ footer{
     background-color: #FFCC00;
     height: 200px;
 }
+.WatLeren{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.WatLeren .right{
+    grid-column-start: 2;
+    margin: 100px;
+}
+.WatLeren .left{
+    margin: 100px;
 
+}
+.WatLeren h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.WatLeren ul p{
+    padding: 30px;
+    margin-left: 50px;
+    margin-top: 30px
+}
 
 
 
@@ -107,22 +127,24 @@ body {
   font-family: "Raleway";
   height: 100%;
 }
-body h1 {
+/* body h1 {
   text-align: center;
   color: #428BFF;
   font-weight: 300;
   padding: 40px 0 20px 0;
   margin: 0;
-}
+} */
 
 .tabs {
   left: 50%;
   transform: translateX(-50%);
-  background: white;
+  background: #FFCC00;
   margin-top: 100px;
+  margin-bottom: 100px;
   padding: 50px;
   padding-bottom: 80px;
   width: 70%;
+  color: #03357C;
   height: 250px;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   border-radius: 5px;
@@ -139,7 +161,7 @@ body h1 {
   font-family: "Montserrat";
   font-weight: bold;
   font-size: 18px;
-  color: #428BFF;
+  color: #03357C;
 }
 .tabs ul {
   list-style-type: none;
@@ -160,7 +182,7 @@ body h1 {
 }
 .tabs ul li label {
   transition: all 0.3s ease-in-out;
-  color: #929daf;
+  color: #494F57;
   padding: 5px auto;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -178,7 +200,7 @@ body h1 {
   display: none;
 }
 .tabs ul li label svg {
-  fill: #929daf;
+  fill: #494F57;
   height: 1.2em;
   vertical-align: bottom;
   margin-right: 0.2em;
@@ -186,10 +208,10 @@ body h1 {
 }
 .tabs ul li label:hover, .tabs ul li label:focus, .tabs ul li label:active {
   outline: 0;
-  color: #bec5cf;
+  color: #929daf;
 }
 .tabs ul li label:hover svg, .tabs ul li label:focus svg, .tabs ul li label:active svg {
-  fill: #bec5cf;
+  fill: #929daf;
 }
 .tabs .slider {
   position: relative;
@@ -202,7 +224,7 @@ body h1 {
   max-width: 100%;
   margin: 0 auto;
   height: 4px;
-  background: #428BFF;
+  background: #03357C;
   border-radius: 1px;
 }
 .tabs .content {
@@ -223,7 +245,7 @@ body h1 {
   line-height: 1.4;
 }
 .tabs .content section h2 {
-  color: #428BFF;
+  color: #03357C;
   display: none;
 }
 .tabs .content section h2::after {
@@ -232,16 +254,16 @@ body h1 {
   display: block;
   width: 30px;
   height: 3px;
-  background: #428BFF;
+  background: #03357C;
   margin-top: 5px;
   left: 1px;
 }
 .tabs input[name=tab-control]:nth-of-type(1):checked ~ ul > li:nth-child(1) > label {
   cursor: default;
-  color: #428BFF;
+  color: #03357C;
 }
 .tabs input[name=tab-control]:nth-of-type(1):checked ~ ul > li:nth-child(1) > label svg {
-  fill: #428BFF;
+  fill: #03357C;
 }
 @media (max-width: 600px) {
   .tabs input[name=tab-control]:nth-of-type(1):checked ~ ul > li:nth-child(1) > label {
@@ -256,10 +278,10 @@ body h1 {
 }
 .tabs input[name=tab-control]:nth-of-type(2):checked ~ ul > li:nth-child(2) > label {
   cursor: default;
-  color: #428BFF;
+  color: #03357C;
 }
 .tabs input[name=tab-control]:nth-of-type(2):checked ~ ul > li:nth-child(2) > label svg {
-  fill: #428BFF;
+  fill: #03357C;
 }
 @media (max-width: 600px) {
   .tabs input[name=tab-control]:nth-of-type(2):checked ~ ul > li:nth-child(2) > label {
@@ -274,10 +296,10 @@ body h1 {
 }
 .tabs input[name=tab-control]:nth-of-type(3):checked ~ ul > li:nth-child(3) > label {
   cursor: default;
-  color: #428BFF;
+  color: #03357C;
 }
 .tabs input[name=tab-control]:nth-of-type(3):checked ~ ul > li:nth-child(3) > label svg {
-  fill: #428BFF;
+  fill: #03357C;
 }
 @media (max-width: 600px) {
   .tabs input[name=tab-control]:nth-of-type(3):checked ~ ul > li:nth-child(3) > label {
@@ -292,10 +314,10 @@ body h1 {
 }
 .tabs input[name=tab-control]:nth-of-type(4):checked ~ ul > li:nth-child(4) > label {
   cursor: default;
-  color: #428BFF;
+  color: #03357C;
 }
 .tabs input[name=tab-control]:nth-of-type(4):checked ~ ul > li:nth-child(4) > label svg {
-  fill: #428BFF;
+  fill: #03357C;
 }
 @media (max-width: 600px) {
   .tabs input[name=tab-control]:nth-of-type(4):checked ~ ul > li:nth-child(4) > label {
