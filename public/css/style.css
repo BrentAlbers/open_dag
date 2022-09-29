@@ -11,7 +11,7 @@
 }
 header{
     text-align: center;
-    background-color: #F8AECD;
+    background-color: #FFCC00;
 }
 header img{
     height: 130px;
@@ -22,7 +22,7 @@ header img{
 }
 .deSchool{
 background-image: linear-gradient(to bottom left,#03357C, #1c4989);
-    color: #F8AECD;
+    color: #FFCC00;
     height: 500px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
@@ -33,7 +33,7 @@ background-image: linear-gradient(to bottom left,#03357C, #1c4989);
     margin-left: 40px;
     padding: 10px;
     height: fit-content;
-    border-left: 3px solid #F8AECD;
+    border-left: 3px solid #FFCC00;
 
 }
 .jim{
@@ -44,10 +44,10 @@ background-image: linear-gradient(to bottom left,#03357C, #1c4989);
 .vakken li{
     width: 300px;
     display: inline-block;
-    background-color: #C1ED0C;
+    background-color: #03357C;
     padding: 50px;
     margin: 30px,0,30px,0;
-    color: #69197C;
+    color: #FFCC00;
 }
 .vakken ul{
     margin: 0;
@@ -57,10 +57,10 @@ background-image: linear-gradient(to bottom left,#03357C, #1c4989);
     grid-column-start: 2; 
     margin-top: 50px;
     margin-bottom: 100px;
-    background-color: #C1ED0C;
+    background-color: #03357C;
     width: 674px;
     height: 449px;
-    color: #69197C;
+    color: #FFCC00;
 }
 .blokken ul,li,p,h2{
     width: 534px;
@@ -84,7 +84,7 @@ background-image: linear-gradient(to bottom left,#03357C, #1c4989);
     font-size: 17px;
 }
 footer{
-    background-color: #F8AECD;
+    background-color: #FFCC00;
     height: 200px;
 }
 
