@@ -7,7 +7,7 @@
     width: 70%;
     margin: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(autofit, minmax(250px, 1fr)) ;
 }
 header{
     text-align: center;
@@ -21,7 +21,7 @@ header img{
     grid-column-start: 3;
 }
 .deSchool{
-background-image: linear-gradient(to bottom left,#03357C, #1c4989);
+  background-image: linear-gradient(to bottom left,#03357C, #1c4989);
     color: #FFCC00;
     height: 500px;
     display: grid;
@@ -110,6 +110,88 @@ footer{
 }
 .right img{
   width: 480px;
+}
+
+@media (max-width: 425px){
+  .WatLeren{
+    width: 400px;
+    grid-template-columns: 1fr;
+    margin: 0px;
+  }
+  .right img{
+    width: 425px;
+  }
+  .blokimg{
+    width: 425px;
+  }
+  .container{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(autofit, minmax(250px, 1fr)) ;
+}
+  .WatLeren .right{
+    grid-column-start: 1;
+    margin:0px;
+    max-width: 400px;
+}
+.WatLeren .left{
+  width: 425px;
+  margin: 0px;
+}
+.WatLeren p {
+  width: 425px;
+}
+.blokken {
+  grid-column-start: 1; 
+  max-width: 425px;
+  background-color: #03357C;
+
+  color: #FFCC00;
+}
+.schoolinfo{
+  grid-column-start: 1;
+  margin-top: 0px;
+  margin-left: 0px;
+  padding: 0px;
+  height: fit-content;
+  border-left: 3px solid #FFCC00;
+  width: 425px;
+}
+.schoolinfo p {
+  width: 410px;
+  font-size: 14px;
+}
+.jim{
+  max-width: 425px;
+  max-height: 290px;
+  grid-column-start: 1;
+  margin-left: 0px;
+}
+.blokken ul,li,p,h2{
+  width: 425px;
+  margin: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.blokken p, li{
+  font-size: 14px;
+  width: 425px
+}
+.left p{
+  width: 425px;
+  font-size: 13px;
+  margin: 0px;
+}
+body{
+  width: 425px;
+}
+label{
+  color: blue;
+}
+.tabs li{
+  color: #03357C
+}
 }
 
 
@@ -206,7 +288,7 @@ body {
   display: none;
 }
 .tabs ul li label svg {
-  fill: #494F57;
+  fill: #03357C;
   height: 1.2em;
   vertical-align: bottom;
   margin-right: 0.2em;
@@ -214,10 +296,10 @@ body {
 }
 .tabs ul li label:hover, .tabs ul li label:focus, .tabs ul li label:active {
   outline: 0;
-  color: #929daf;
+  color: #03357C;
 }
 .tabs ul li label:hover svg, .tabs ul li label:focus svg, .tabs ul li label:active svg {
-  fill: #929daf;
+  fill: #03357C;
 }
 .tabs .slider {
   position: relative;
